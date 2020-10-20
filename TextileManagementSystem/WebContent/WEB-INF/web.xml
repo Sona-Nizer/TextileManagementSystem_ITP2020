@@ -2,30 +2,30 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
   <display-name>TextileManagementSystem</display-name>
 
-  
+
   <servlet>
       <servlet-name>AddOrderServlet</servlet-name>
-      <servlet-class>web.oop.servlet.AddOrderServlet</servlet-class>
+      <servlet-class>com.itp.servlet.AddOrderServlet</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>UpdateOrderServlet</servlet-name>
-      <servlet-class>web.oop.servlet.UpdateOrderServlet</servlet-class>
+      <servlet-class>com.itp.servlet.UpdateOrderServlet</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>DeleteOrderServlet</servlet-name>
-      <servlet-class>web.oop.servlet.DeleteOrderServlet</servlet-class>
+      <servlet-class>com.itp.servlet.DeleteOrderServlet</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>GetOrderServlet</servlet-name>
-      <servlet-class>web.oop.servlet.GetOrderServlet</servlet-class>
+      <servlet-class>com.itp.servlet.GetOrderServlet</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>ListOrderServlet</servlet-name>
-      <servlet-class>web.oop.servlet.ListOrderServlet</servlet-class>
+      <servlet-class>com.itp.servlet.ListOrderServlet</servlet-class>
     </servlet>
     <servlet>
       <servlet-name>AddDemoServlet</servlet-name>
-      <servlet-class>web.oop.servlet.AddDemoServlet</servlet-class>
+      <servlet-class>com.itp.servlet.AddDemoServlet</servlet-class>
     </servlet>
 
 
@@ -67,6 +67,3 @@
       <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
   </web-app>
-
-
-
